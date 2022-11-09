@@ -99,7 +99,7 @@ def bgtz(pc, reg_index, offset):
 
     :param pc: current PC
     :param reg_index: the condition compared with 0
-    :offset: the offset of target PC from current PC
+    :param offset: the offset of target PC from current PC
     :return: target PC
     """
     reg_index = int(reg_index, 2)
@@ -198,4 +198,3 @@ if __name__ == '__main__':
     assert Memory[3] == 55
     print("Result is %d, Successfully simulated!" % Memory[3])
     print("Memory_SIZE = %d" % Memory_SIZE)
-    
