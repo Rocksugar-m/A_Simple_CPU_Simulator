@@ -198,4 +198,3 @@ if __name__ == '__main__':
     assert Memory[3] == 55
     print("Result is %d, Successfully simulated!" % Memory[3])
     print("Memory_SIZE = %d" % Memory_SIZE)
-    
